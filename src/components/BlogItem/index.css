@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.blog-link {
+  text-decoration: none;
+  padding: 1rem 1rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+}
+
+.Blog-list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.blog-list-img {
+  height: 15rem;
+  width: 30rem;
+
+  object-position: center;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.topic {
+  color: grey;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-logo {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.author-name {
+  color: grey;
+}
